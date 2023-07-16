@@ -1,0 +1,9 @@
+
+.rightSideBar {
+  width: 250px;
+  height: 100%;
+
+
+  border-right: 1px solid lightgray;
+  background-color: whitesmoke;
+}
