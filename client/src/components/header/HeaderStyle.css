@@ -1,4 +1,5 @@
 .header {
+  height: 4rem;
   display: flex;
   justify-content: space-between;
   background-color: whitesmoke;

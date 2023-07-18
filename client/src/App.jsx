@@ -1,18 +1,19 @@
-import React, { Component } from 'react';
-import "./index.css"
 
-import Header from "./components/header/Header.jsx";
-import LeftSideBar from './components/leftSideBar/LeftSideBar';
-import RightSideBar from './components/rightSideBar/RightSideBar';
+import './AppStyle.css';
+import Header from './components/header/Header';
+import RightSideBar from './components/rightSidebar/RightSidebar';
+import LeftSideBar from './components/leftSidebar/LeftSidebar';
 
 function App() {
   return (
-    <div className='app' style={{display: "flex", flexDirection: "column"}}>
-      {Header()}
-      <div style={{flexGrow: 1, display: 'flex', justifyContent: "space-between"}}>
-        {LeftSideBar()}
-        <div className='calendar-container' style={{flexFlow: 1}}>a</div>
-        {RightSideBar()}
+    <div className="app">
+      <Header />
+      <div className="subheader-container">
+        <LeftSideBar />
+        <div className="calendar-container">
+
+        </div>
+        <RightSideBar />
       </div>
     </div>
   );

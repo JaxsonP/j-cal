@@ -1,0 +1,24 @@
+
+button {
+  background: whitesmoke;
+  border: 1px solid lightgray;
+  margin: 20px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(135deg, salmon, salmon, indianred);
+}
+
+.subheader-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.calendar-container {
+  flex-grow: 1;
+}
