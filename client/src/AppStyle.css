@@ -10,7 +10,7 @@ button {
   flex-direction: column;
   height: 100%;
   width: 100%;
-  background: linear-gradient(135deg, salmon, salmon, indianred);
+  background: magenta;
 }
 
 .subheader-container {

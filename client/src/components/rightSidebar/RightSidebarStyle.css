@@ -1,9 +1,17 @@
 
 .right-sidebar {
-  width: 250px;
+  --width: 400px;
+
+  position: absolute;
+  width: var(--width);
   height: 100%;
+  right: calc(0px - var(--width));
 
-
-  border-left: 1px solid lightgray;
+  transition: right 0.2s ease-in-out;
+  border-left: 1px dotted lightgray;
   background-color: whitesmoke;
+}
+
+.right-sidebar.collapsed {
+  right: 0;
 }

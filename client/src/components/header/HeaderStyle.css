@@ -6,8 +6,13 @@
   border-bottom: 1px solid lightgray;
 }
 
-.header div {
-  margin: 1rem;
+.left-anchor {
+  display: flex;
+}
+
+.right-anchor {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .settings {

@@ -1,13 +1,15 @@
-
 .left-sidebar {
+  --width: 200px;
+
   position: absolute;
-  width: 250px;
+  width: var(--width);
   height: 100%;
   left: 0;
   transition: left 0.2s ease-in-out;
   background-color: whitesmoke;
+  border-right: 1px solid lightgray;
 }
 
 .left-sidebar.collapsed {
-  left: -250px;
+  left: calc(0px - var(--width));
 }
