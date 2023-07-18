@@ -11,7 +11,6 @@ function App() {
       <div className="subheader-container">
         <LeftSideBar />
         <div className="calendar-container">
-
         </div>
         <RightSideBar />
       </div>

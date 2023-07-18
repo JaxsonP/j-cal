@@ -1,7 +1,13 @@
 
 .left-sidebar {
+  position: absolute;
   width: 250px;
   height: 100%;
-
+  left: 0;
+  transition: left 0.2s ease-in-out;
   background-color: whitesmoke;
+}
+
+.left-sidebar.collapsed {
+  left: -250px;
 }
