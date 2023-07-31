@@ -1,7 +1,6 @@
 import { create } from 'zustand'
 
 export const useLayoutStore = create((set) => ({
-  leftSidebarCollapsed: true,
-  toggleLeftSidebar: () => set((state) => ({ leftSidebarCollapsed: !state.leftSidebarCollapsed })),
-  rightSidebarCollapsed: true,
+  sidebarCollapsed: true,
+  toggleSidebar: () => set((state) => ({ sidebarCollapsed: !state.sidebarCollapsed })),
 }))

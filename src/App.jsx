@@ -2,7 +2,7 @@
 import './AppStyle.css';
 
 import Header from './components/header/Header';
-import LeftSideBar from './components/leftSidebar/LeftSidebar';
+import Sidebar from './components/sidebar/Sidebar';
 import Calendar from './components/calendar/Calendar';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <div className="app">
       <Header />
       <div className="subheader-container">
-        <LeftSideBar />
+        <Sidebar />
         <div className="calendar-container">
           <Calendar />
         </div>

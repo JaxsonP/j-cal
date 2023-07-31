@@ -5,7 +5,7 @@ import { useLayoutStore } from '../../stores/LayoutStore';
 
 export default function LeftSidebar() {
 
-  const collapsed = useLayoutStore((state) => state.leftSidebarCollapsed)
+  const collapsed = useLayoutStore((state) => state.sidebarCollapsed)
   const classNameSuffix = collapsed ? " collapsed" : ""
 
   return (
