@@ -6,7 +6,7 @@ import { useLayoutStore } from '../../stores/LayoutStore';
 export default function Header() {
 
   const toggleSidebar = useLayoutStore((state) => state.toggleSidebar);
-  const calendarView = useLayoutStore((state) => state.calendarView);
+  //const calendarView = useLayoutStore((state) => state.calendarView);
 
 
   return (
@@ -16,7 +16,6 @@ export default function Header() {
         <button className="sidebar-open-btn" onClick={() => toggleSidebar()}>&#9776; Left Sidebar</button>
       </div>
       <div className='right-anchor'>
-        <div className='calendar-view'>View:{calendarView}</div>
         <div className='settings'>Settings</div>
       </div>
     </div>
